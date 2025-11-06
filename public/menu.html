@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>StudyLink</title>
+<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+<header class="navbar" role="banner">
+  <div class="navbar-left">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a2 2 0 0 0-2 2v1H7v1H6a4 4 0 0 0-4 4v8a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-7a4 4 0 0 0-4-4h-1v-1h-3V4a2 2 0 0 0-2-2Zm-1 5v7h-1v-7h1Zm3 0v7h-1v-7h1Z"/></svg>
+    StudyLink
+  </div>
+  <div class="navbar-center" aria-label="Saudações ao usuário">
+    <a href="cadastro.html" class="greeting-link" aria-label="Ir para cadastro">Faça <strong>Login</strong></a>
+  </div>
+  <div class="navbar-right" role="navigation" aria-label="Controles do usuário">
+    <div class="balance">
+  
+    </div>
+    <div class="notification" tabindex="0" role="button" aria-label="Notificações, 3 novas">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 24a2.25 2.25 0 0 0 2.25-2.25h-4.5A2.25 2.25 0 0 0 12 24ZM21 18v-5a7.5 7.5 0 0 0-15 0v5l-3 3v1h21v-1l-3-3Z"/></svg>
+      <span class="badge" aria-live="polite">3</span>
+    </div>
+    <div class="avatar" aria-label="Avatar do usuário Richard" tabindex="0" role="button">L</div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="welcome-title">
+    <h1 id="welcome-title">Seja Bem-vindo</h1>
+    <p>Explore conteúdos educacionais do fundamental ao superior</p>
+
+    <form class="search-box" role="search" aria-label="Busca de conteúdo">
+      <input type="search" name="search" placeholder="Digite o conteúdo que procura…" aria-label="Digite o conteúdo que procura" />
+      <button type="submit" aria-label="Buscar conteúdo">Buscar</button>
+    </form>
+
+    <div class="popular-tags" aria-label="Tags populares">
+      Popular:
+      <span><button type="button">História</button></span>
+      <span><button type="button">Química</button></span>
+      <span><button type="button">Cálculo</button></span>
+      <span><button type="button">Física</button></span>
+    </div>
+  </section>
+
+  <section class="content-highlight" aria-labelledby="highlight-title">
+    <header class="content-highlight-header">
+      <div>
+        <h2 id="highlight-title">Conteúdos em Destaque</h2>
+        <small>Escolha seu nível de ensino e comece a estudar</small>
+      </div>
+      <a href="#" aria-label="Ver todos os conteúdos em destaque">
+        Ver todos
+        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <path d="M6 4l4 4-4 4" stroke="#0d58ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </header>
+
+    <div class="card-list">
+      <article class="card" tabindex="0" aria-label="História conteúdo Ensino Fundamental">
+        <div class="checkbox" role="checkbox" aria-checked="false" tabindex="0" aria-label="Selecionar História"></div>
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&q=80" alt="Cadernos coloridos sobre uma mesa" />
+        </div>
+        <div class="card-content">
+          <span class="label-ensino ensino-fundamental">Ensino Fundamental</span>
+          <h3>História</h3>
+          <p>Conteúdos do 1º ao 9º ano com resumos completos</p>
+          <a href="#" aria-label="Explorar conteúdo de História">Explorar conteúdo
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M5 8h6m0 0l-3-3m3 3-3 3" stroke="#0d58ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="card" tabindex="0" aria-label="Química conteúdo Ensino Médio">
+        <div class="checkbox" role="checkbox" aria-checked="false" tabindex="0" aria-label="Selecionar Química"></div>
+        <div class="card-img-wrapper">
+          <img src="img/site_misturaquimica.jpg" alt="Laboratório de química com cadeiras e janelas" />
+        </div>
+        <div class="card-content">
+          <span class="label-ensino ensino-medio">Ensino Médio</span>
+          <h3>Química</h3>
+          <p>Prepare-se para vestibulares e ENEM</p>
+          <a href="#" aria-label="Explorar conteúdo de Química">Explorar conteúdo
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M5 8h6m0 0l-3-3m3 3-3 3" stroke="#0d58ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="card" tabindex="0" aria-label="Cálculo conteúdo Ensino Superior">
+        <div class="checkbox" role="checkbox" aria-checked="false" tabindex="0" aria-label="Selecionar Cálculo"></div>
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&q=80" alt="Sala de aula com quadro negro e alunos assistindo a aula" />
+        </div>
+        <div class="card-content">
+          <span class="label-ensino ensino-superior">Ensino Superior</span>
+          <h3>Cálculo</h3>
+          <p>Material completo para graduação</p>
+          <a href="#" aria-label="Explorar conteúdo de Cálculo">Explorar conteúdo
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M5 8h6m0 0l-3-3m3 3-3 3" stroke="#0d58ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+</body>
+</html>

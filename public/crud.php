@@ -55,7 +55,7 @@ $mensagem = isset($_GET['msg']) ? $_GET['msg'] : '';
 <header>
     <div class="logo">
         <img src="img/logo.PNG" width="32" height="32" alt="logo">
-        Administração
+        Administração Study Link
     </div>
    
 </header>

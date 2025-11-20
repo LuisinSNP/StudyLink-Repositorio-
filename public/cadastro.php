@@ -12,7 +12,7 @@
     <div class="container">
         <div class="logo-section">
             <div class="logo">
-                <img src="img/image 5.png" alt="Study Link Logo" />
+                <img src="img/logo.PNG" width="1000" height="1000" alt="Study Link Logo" />
             </div>
             <div class="brand-name">Study<br>Link</div>
         </div>

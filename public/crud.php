@@ -54,17 +54,10 @@ $mensagem = isset($_GET['msg']) ? $_GET['msg'] : '';
 
 <header>
     <div class="logo">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path d="M9.5 3L4 8.5V20h16V3H9.5zm.5 2h7v13H5v-8L10 5z"></path>
-        </svg>
+        <img src="img/logo.PNG" width="32" height="32" alt="logo">
         Administração
     </div>
-    <div class="user-profile">
-        <div class="avatar-circle" title="Administrador">A</div>
-        <form method="get" onsubmit="return confirm('Deseja sair?')">
-            <button type="submit" class="btn-logout" name="reset" value="1">Logout</button>
-        </form>
-    </div>
+   
 </header>
 
 <main>

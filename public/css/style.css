@@ -1,4 +1,4 @@
-/* Reset básico */
+
 body, h1, h2, p, input, button, table {
     margin: 0; padding: 0; box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-/* Cabeçalho estilo StudyLink */
+
 header {
     background: #fff;
     height: 60px;
@@ -28,7 +28,7 @@ header .logo {
     gap: 8px;
     cursor: default;
 }
-/* ícone simples SVG */
+
 header .logo svg {
     width: 24px;
     height: 24px;
@@ -40,7 +40,6 @@ header .user-profile {
     gap: 12px;
 }
 
-/* Avatar redondo azul */
 .avatar-circle {
     background-color: #0066ff;
     color: white;
@@ -88,7 +87,7 @@ p.subtitle {
     font-size: 16px;
 }
 
-/* Mensagem */
+
 .alert {
     background-color: #d4edda;
     color: #155724;
@@ -100,7 +99,7 @@ p.subtitle {
     font-weight: 600;
 }
 
-/* Formulário com cartão branco */
+
 form {
     background: #fff;
     box-shadow: 0 4px 12px rgb(0 102 255 / 0.15);
@@ -163,7 +162,7 @@ button[type="submit"]:hover {
     background-color: #004ac1;
 }
 
-/* Tabela com estilo moderno */
+
 table {
     width: 100%;
     border-collapse: separate;
@@ -198,7 +197,7 @@ tbody tr td {
     user-select: text;
 }
 
-/* Botão apagar estilo StudyLink */
+
 .btn-excluir {
     background-color: #ff4d4f;
     border: none;
@@ -222,7 +221,7 @@ tbody tr td {
     fill: white;
 }
 
-/* Rodapé soft */
+
 footer {
     text-align: center;
     padding: 20px 0;
@@ -231,7 +230,7 @@ footer {
     user-select: none;
 }
 
-/* Links na área central */
+
 .links-bottom {
     margin-top: 40px;
     text-align: center;

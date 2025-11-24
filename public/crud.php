@@ -5,7 +5,7 @@ if (!isset($_SESSION['usuarios'])) {
     $_SESSION['usuarios'] = [];
 }
 
-// Ação para atualizar cargo do usuário
+
 if (isset($_POST['acao']) && $_POST['acao'] === 'atualizar_cargo') {
     $idEditar = $_POST['id'] ?? '';
     $cargo = $_POST['cargo'] ?? 'Usuário';
@@ -21,7 +21,7 @@ if (isset($_POST['acao']) && $_POST['acao'] === 'atualizar_cargo') {
     exit;
 }
 
-// Excluir usuário
+
 if (isset($_GET['excluir'])) {
     $idExcluir = $_GET['excluir'];
     $_SESSION['usuarios'] = array_filter($_SESSION['usuarios'], function($u) use ($idExcluir) {
@@ -31,7 +31,7 @@ if (isset($_GET['excluir'])) {
     exit;
 }
 
-// Limpar sessão
+
 if (isset($_GET['reset'])) {
     session_destroy();
     header("Location: crud.php");
@@ -115,7 +115,6 @@ $mensagem = isset($_GET['msg']) ? $_GET['msg'] : '';
     </table>
 
     <div class="links-bottom">
-        <a href="cadastro.php" title="Ir para página de cadastro">Ir para Cadastro</a>
         <a href="?reset=1" onclick="return confirm('Deseja limpar todos os usuários e reiniciar?');" title="Limpar todos usuários">Limpar Sessão</a>
     </div>
 </main>

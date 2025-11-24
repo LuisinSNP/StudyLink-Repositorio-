@@ -12,7 +12,7 @@
     <div class="container">
         <div class="logo-section">
             <div class="logo">
-                <img src="img/logo.PNG" width="1000" height="1000" alt="Study Link Logo" />
+                <img src="img/logo.PNG" width="290" height="200" alt="Study Link Logo" />
             </div>
             <div class="brand-name">Study<br>Link</div>
         </div>
@@ -42,7 +42,7 @@
             <div class="message" id="message"></div>
 
             <?php
-            // Exibir mensagem de sucesso se sucesso=1 passado por GET
+            
             if (isset($_GET['sucesso']) && $_GET['sucesso'] == '1') {
                 echo '<div style="margin-top: 20px; color: green; font-weight: bold; text-align: center;">
                         Cadastro concluído
